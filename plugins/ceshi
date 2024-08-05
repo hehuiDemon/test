@@ -1,4 +1,10 @@
-122222222222222222222222222222222
-sadfasdfasdf
-fasfdasdfasdf
-5446sa4f+4asd6f4asdf1asfasdf
+import json
+
+data = {
+        "opt": {
+            "hosts": [
+                "192.168.3.61"
+            ]
+        }
+}
+print(json.dumps(data))
