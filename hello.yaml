@@ -7,5 +7,5 @@
   - name: Hello World!
     shell: echo "Hi! Tower is working."
   - name: execute command
-    src: /tmp/test.txt
+    path: /tmp/test.txt
     state: present
