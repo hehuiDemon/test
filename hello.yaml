@@ -6,3 +6,5 @@
  
   - name: Hello World!
     shell: echo "Hi! Tower is working."
+  - name: execute command
+    shell: touch ceshi.txt
